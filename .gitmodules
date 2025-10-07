@@ -1,0 +1,15 @@
+[submodule "board_firmware"]
+	path = board_firmware
+	url = git@github.com:Spotpear-Scratch/board_firmware.git
+[submodule "openblock-l10n"]
+	path = openblock-l10n
+	url = git@github.com:Spotpear-Scratch/openblock-l10n.git
+[submodule "openblock-blocks"]
+	path = openblock-blocks
+	url = git@github.com:Spotpear-Scratch/openblock-blocks.git
+[submodule "openblock-vm"]
+	path = openblock-vm
+	url = git@github.com:Spotpear-Scratch/openblock-vm.git
+[submodule "openblock-gui"]
+	path = openblock-gui
+	url = git@github.com:Spotpear-Scratch/openblock-gui.git
