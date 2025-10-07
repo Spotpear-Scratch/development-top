@@ -7,10 +7,10 @@ HOST=$(shell hostname -I | cut -f1 -d' ')
 
 # Obtain ESP, tool chain for micropython with lvgl, and patch with our board
 firmware-setup:
-	( cd board_firmware/lv_micropython ; make all )
+	( cd board_firmware ; make all )
 
 firmware-rebuild:
-	( cd board_firmware/lv_micropython ; make rebuild )
+	( cd board_firmware ; make rebuild )
 
 # Copy over firmware from boot loader to the VM for automated flashing
 firmware-copy:
