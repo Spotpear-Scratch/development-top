@@ -4,12 +4,18 @@
 [submodule "openblock-l10n"]
 	path = openblock-l10n
 	url = git@github.com:Spotpear-Scratch/openblock-l10n.git
+	branch = spotpear
 [submodule "openblock-blocks"]
 	path = openblock-blocks
 	url = git@github.com:Spotpear-Scratch/openblock-blocks.git
+	branch = spotpear
 [submodule "openblock-vm"]
 	path = openblock-vm
 	url = git@github.com:Spotpear-Scratch/openblock-vm.git
+	branch = webserial
 [submodule "openblock-gui"]
 	path = openblock-gui
 	url = git@github.com:Spotpear-Scratch/openblock-gui.git
+	branch = spotpear
+[submodule "openblick-l10n"]
+	branch = spotpear

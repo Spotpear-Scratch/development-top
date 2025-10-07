@@ -20,8 +20,13 @@ firmware-copy:
 
 
 # Get started with getting right branches and repos
+# And make sure they are checked out to the right points
 clone:
 	git submodule update --init --recursive
+	(cd openblock-l10n 	; git checkout spotpear)
+	(cd openblock-blocks	; git checkout spotpear)
+	(cd openblock-vm 	; git checkout webserial)
+	(cd openblock-gui  	; git checkout spotpear)
 
 	#git clone git@github.com:Spotpear-Scratch/openblock-gui.git -b spotpear
 	#git clone git@github.com:Spotpear-Scratch/openblock-l10n.git -b spotpear
