@@ -105,3 +105,7 @@ build-gui:
 
 deploy:
 	( cd openblock-gui ; rm -rf openblock-gui/node_modules/.cache/gh-pages ; NODE_OPTIONS=--openssl-legacy-provider npm run build ; NODE_OPTIONS=--openssl-legacy-provider npm run deploy )
+
+validatesite:
+	( cd openblock-gui ; rm -rf openblock-gui/node_modules/.cache/gh-pages ; NODE_OPTIONS=--openssl-legacy-provider npm run build ; NODE_OPTIONS=--openssl-legacy-provider npm run validatesite )
+
